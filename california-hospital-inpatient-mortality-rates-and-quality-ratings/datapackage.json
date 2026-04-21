@@ -1,0 +1,2609 @@
+{
+  "accrual_periodicity": "annually",
+  "additional_limitations": "",
+  "citation": "Department of Health Care Access and Information Patient Discharge Data, 2010-2023; Agency for Healthcare Research and Quality (AHRQ) Inpatient Quality Indicators, SAS Software. ",
+  "contact_email": "dataandreports@hcai.ca.gov",
+  "data_collection_tool": "https://hcai.ca.gov/data-and-reports/submit-data/patient-data/",
+  "data_license": "Terms of Use",
+  "de_identification_method": "",
+  "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 6 medical conditions treated (Acute Stroke, Acute Myocardial Infarction, Heart Failure, Gastrointestinal Hemorrhage, Hip Fracture and Pneumonia) and 3 procedures performed (Carotid Endarterectomy, Pancreatic Resection, and Percutaneous Coronary Intervention) in California hospitals. The 2023 IMIs were generated using AHRQ Version 2024, while previous years' IMIs were generated with older versions of AHRQ software (2022 IMIs by Version 2023, 2021 IMIs by Version 2022, 2020 IMIs by Version 2021, 2019 IMIs by Version 2020, 2016-2018 IMIs by Version 2019, 2014 and 2015 IMIs by Version 5.0, and 2012 and 2013 IMIs by Version 4.5). The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time. However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings. Please refer to statewide table for California overall rates: https://data.chhs.ca.gov/dataset/california-hospital-inpatient-mortality-rates-and-quality-ratings/resource/af88090e-b6f5-4f65-a7ea-d613e6569d96",
+  "geo_coverage": "Statewide",
+  "geographic_granularity": "location point",
+  "keywords": [
+    "aaa repair",
+    "abdominal aortic aneurysm",
+    "acute myocardial infarction",
+    "acute stroke",
+    "agency for healthcare research and quality",
+    "ahrq",
+    "ami",
+    "angioplasty",
+    "brain surgery",
+    "carotid endarterectomy",
+    "craniotomy",
+    "esophageal cancer surgery",
+    "esophageal resection",
+    "gastro-intestinal hemorrhage",
+    "healthcare quality",
+    "heart failure",
+    "hemorrhagic stroke",
+    "hip fracture",
+    "hospital deaths",
+    "hospital mortality.",
+    "hospital quality",
+    "imi",
+    "inpatient deaths",
+    "inpatient mortality indicators",
+    "inpatient quality",
+    "inpatient quality indicators",
+    "ischemic stroke",
+    "pancreatic cancer surgery",
+    "pancreatic resection",
+    "pci",
+    "percutaneous coronary intervention",
+    "pneumonia",
+    "stents",
+    "subarachnoid stroke"
+  ],
+  "limitations": "Limitations",
+  "name": "california-hospital-inpatient-mortality-rates-and-quality-ratings",
+  "program_web_page": "https://hcai.ca.gov/data-and-reports/healthcare-quality/ahrq-quality-indicators/#imi",
+  "related_resources": "https://chhs.data.ca.gov/Healthcare; http://www.qualityindicators.ahrq.gov/   https://chhs.data.ca.gov/Healthcare/California-Statewide-Inpatient-Mortality-Rates-201/nmyg-79m3  This information is provided as a courtesy. The State does not control any third party web services or any of the material on their sites. It does not imply approval or endorsement of the organization represented by the website or the website content. See CalHHS Terms of Use for additional information. ",
+  "resources": [
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 6 medical conditions treated (Acute Stroke, Acute Myocardial Infarction, Heart Failure, Gastrointestinal Hemorrhage, Hip Fracture and Pneumonia) and 3 procedures performed (Carotid Endarterectomy, Pancreatic Resection, and Percutaneous Coronary Intervention) in California hospitals. The 2023 IMIs were generated using AHRQ Version 2024, while previous years' IMIs were generated with older versions of AHRQ software (2022 IMIs by Version 2023, 2021 IMIs by Version 2022, 2020 IMIs by Version 2021, 2019 IMIs by Version 2020, 2016-2018 IMIs by Version 2019, 2014 and 2015 IMIs by Version 5.0, and 2012 and 2013 IMIs by Version 4.5). The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time. However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings. Please refer to statewide table for California overall rates: https://data.chhs.ca.gov/dataset/california-hospital-inpatient-mortality-rates-and-quality-ratings/resource/af88090e-b6f5-4f65-a7ea-d613e6569d96",
+      "format": "CSV",
+      "hash": "e5e5bec6101e5f441f813e1867a4bcb2",
+      "name": "2016-2023-california-hospital-inpatient-mortality-rates-and-quality-ratings-csv",
+      "path": "2016-2023-california-hospital-inpatient-mortality-rates-and-quality-ratings-.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "YEAR",
+            "type": "string"
+          },
+          {
+            "name": "COUNTY",
+            "type": "string"
+          },
+          {
+            "name": "HOSPITAL",
+            "type": "string"
+          },
+          {
+            "name": "OSHPDID",
+            "type": "string"
+          },
+          {
+            "name": "Procedure/Condition",
+            "type": "string"
+          },
+          {
+            "name": "Risk Adjuested Mortality Rate",
+            "type": "string"
+          },
+          {
+            "name": "# of Deaths",
+            "type": "string"
+          },
+          {
+            "name": "# of Cases",
+            "type": "string"
+          },
+          {
+            "name": "Hospital Ratings",
+            "type": "string"
+          },
+          {
+            "name": "LONGITUDE",
+            "type": "string"
+          },
+          {
+            "name": "LATITUDE",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/af88090e-b6f5-4f65-a7ea-d613e6569d96/download/2016-2023-imi-results-long-view.csv",
+          "title": "2016-2023 California Hospital Inpatient Mortality Rates and Quality Ratings (CSV)"
+        }
+      ],
+      "title": "2016-2023 California Hospital Inpatient Mortality Rates and Quality Ratings (CSV)"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 6 medical conditions treated (Acute Stroke, Acute Myocardial Infarction, Heart Failure, Gastrointestinal Hemorrhage, Hip Fracture and Pneumonia) and 3 procedures performed (Carotid Endarterectomy, Pancreatic Resection, and Percutaneous Coronary Intervention) in California hospitals. The 2023 IMIs were generated using AHRQ Version 2024, while previous years' IMIs were generated with older versions of AHRQ software (2022 IMIs by Version 2023, 2021 IMIs by Version 2022, 2020 IMIs by Version 2021, 2019 IMIs by Version 2020, 2016-2018 IMIs by Version 2019, 2014 and 2015 IMIs by Version 5.0, and 2012 and 2013 IMIs by Version 4.5). The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time. However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings. Please refer to statewide table for California overall rates: https://data.chhs.ca.gov/dataset/california-hospital-inpatient-mortality-rates-and-quality-ratings/resource/af88090e-b6f5-4f65-a7ea-d613e6569d96",
+      "format": "PDF",
+      "name": "2016-2023-data-dictionary-inpatient-mortality-indicators",
+      "path": "2016-2023-data-dictionary-inpatient-mortality-indicators.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/04a17352-6bef-4cd9-a486-5b1caff96a47/download/data-dictionary-imi-2016-2023.pdf",
+          "title": "2016-2023 Data Dictionary Inpatient Mortality Indicators"
+        }
+      ],
+      "title": "2016-2023 Data Dictionary Inpatient Mortality Indicators"
+    },
+    {
+      "description": "Executive summary for 2023 Inpatient Mortality Indicators report.",
+      "format": "PDF",
+      "name": "ahrq-imi-executive-summary-2023",
+      "path": "ahrq-imi-executive-summary-2023.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/e942b512-1e2b-4619-9006-b9e012291964/download/imi_executivesummary_2023data-ada.pdf",
+          "title": "AHRQ IMI Executive Summary 2023"
+        }
+      ],
+      "title": "AHRQ IMI Executive Summary 2023"
+    },
+    {
+      "description": "Technical notes for AHRQ Inpatient Mortality Indicators 2023 Data",
+      "format": "PDF",
+      "name": "ahrq-imi-technical-notes-2023",
+      "path": "ahrq-imi-technical-notes-2023.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/ce4bca3b-b31d-4478-882d-aa683a9be13a/download/imi_technical_note_2023data-ada.pdf",
+          "title": "AHRQ IMI Technical Notes 2023"
+        }
+      ],
+      "title": "AHRQ IMI Technical Notes 2023"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 6 medical conditions treated (Acute Stroke, Acute Myocardial Infarction, Heart Failure, Gastrointestinal Hemorrhage, Hip Fracture and Pneumonia) and 3 procedures performed (Carotid Endarterectomy, Pancreatic Resection, and Percutaneous Coronary Intervention) in California hospitals. The 2023 IMIs were generated using AHRQ Version 2024, while previous years' IMIs were generated with older versions of AHRQ software (2022 IMIs by Version 2023, 2021 IMIs by Version 2022, 2020 IMIs by Version 2021, 2019 IMIs by Version 2020, 2016-2018 IMIs by Version 2019, 2014 and 2015 IMIs by Version 5.0, and 2012 and 2013 IMIs by Version 4.5). The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time. However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings. Please refer to statewide table for California overall rates: https://data.chhs.ca.gov/dataset/california-hospital-inpatient-mortality-rates-and-quality-ratings/resource/af88090e-b6f5-4f65-a7ea-d613e6569d96",
+      "format": "PDF",
+      "name": "ahrq-imi-conditions-and-procedures-2023",
+      "path": "ahrq-imi-conditions-and-procedures-2023.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/cb0f3d03-c658-46de-aeb8-dadb2eaf2728/download/ahrq_2023imi_report_v2024-ada.pdf",
+          "title": "AHRQ IMI Conditions and Procedures 2023"
+        }
+      ],
+      "title": "AHRQ IMI Conditions and Procedures 2023"
+    },
+    {
+      "description": "Executive summary for 2022 Inpatient Mortality Indicators report.",
+      "format": "PDF",
+      "name": "ahrq-imi-executive-summary-2022",
+      "path": "ahrq-imi-executive-summary-2022.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/1fe4d0be-8b24-4747-aba6-512e21a2eecf/download/imi_executivesummary_2022data-ada.pdf",
+          "title": "AHRQ IMI Executive Summary 2022"
+        }
+      ],
+      "title": "AHRQ IMI Executive Summary 2022"
+    },
+    {
+      "description": "Technical notes for AHRQ Inpatient Mortality Indicators 2022 Data",
+      "format": "PDF",
+      "name": "ahrq-imi-technical-notes-2022",
+      "path": "ahrq-imi-technical-notes-2022.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/f8f27af4-35f0-4d90-966b-e79272ff53c8/download/imi_technical_note_2022data-ada.pdf",
+          "title": "AHRQ IMI Technical Notes 2022"
+        }
+      ],
+      "title": "AHRQ IMI Technical Notes 2022"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 6 medical conditions treated (Acute Stroke, Acute Myocardial Infarction, Heart Failure, Gastrointestinal Hemorrhage, Hip Fracture and Pneumonia) in California hospitals. The 2022 IMIs were generated using AHRQ Version 2023, while previous years' IMIs were generated with older versions of AHRQ software (2021 IMIs by Version 2022, 2020 IMIs by Version 2021, 2019 IMIs by Version 2020, 2016-2018 IMIs by Version 2019, 2014 and 2015 IMIs by Version 5.0, and 2012 and 2013 IMIs by Version 4.5). The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time. However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings.",
+      "format": "PDF",
+      "name": "ahrq-imi-conditions-2022",
+      "path": "ahrq-imi-conditions-2022.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/ded80eee-ca3c-4fd8-83bc-6366e60035a9/download/ahrq_imi_v2023_conditions2022-ada.pdf",
+          "title": "AHRQ IMI Conditions 2022"
+        }
+      ],
+      "title": "AHRQ IMI Conditions 2022"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 5 procedures performed (Abdominal Aortic Aneurysm Repair – open and unruptured, Abdominal Aortic Aneurysm Repair – endovascular and unruptured, Carotid Endarterectomy, Pancreatic Resection, Percutaneous Coronary Intervention) in California hospitals. The 2022 IMIs were generated using AHRQ Version 2023, while previous years' IMIs were generated with older versions of AHRQ software (2021 IMIs by Version 2022, 2020 IMIs by Version 2021, 2019 IMIs by Version 2020, 2016-2018 IMIs by Version 2019, 2014 and 2015 IMIs by Version 5.0, and 2012 and 2013 IMIs by Version 4.5). The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time. However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings.",
+      "format": "PDF",
+      "name": "ahrq-imi-procedures-2022",
+      "path": "ahrq-imi-procedures-2022.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/83f53ea1-6e1c-4008-87c8-439b60782c7e/download/ahrq_imi_v2023_procedures2022-ada.pdf",
+          "title": "AHRQ IMI Procedures 2022"
+        }
+      ],
+      "title": "AHRQ IMI Procedures 2022"
+    },
+    {
+      "description": "Executive summary for 2021 Inpatient Mortality Indicators report.",
+      "format": "PDF",
+      "name": "ahrq-imi-executive-summary-2021",
+      "path": "ahrq-imi-executive-summary-2021.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/bd6d3f8a-e34b-4b39-8ce0-c16032b2ab79/download/imi_executivesummary_2021data-ada.pdf",
+          "title": "AHRQ IMI Executive Summary 2021"
+        }
+      ],
+      "title": "AHRQ IMI Executive Summary 2021"
+    },
+    {
+      "description": "Technical notes for AHRQ Inpatient Mortality Indicators 2021 Data",
+      "format": "PDF",
+      "name": "ahrq-imi-technical-notes-2021",
+      "path": "ahrq-imi-technical-notes-2021.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/da626c9b-6779-40ba-9019-6ab265236129/download/imi_technical_note_2021data-ada.pdf",
+          "title": "AHRQ IMI Technical Notes 2021"
+        }
+      ],
+      "title": "AHRQ IMI Technical Notes 2021"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 6 medical conditions treated (Acute Stroke, Acute Myocardial Infarction, Heart Failure, Gastrointestinal Hemorrhage, Hip Fracture and Pneumonia) in California hospitals. The 2021 IMIs were generated using AHRQ Version 2022, while previous years' IMIs were generated with older versions of AHRQ software (2020 IMIs by Version 2021, 2019 IMIs by Version 2020, 2016-2018 IMIs by Version 2019, 2014 and 2015 IMIs by Version 5.0, and 2012 and 2013 IMIs by Version 4.5). The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time. However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings.",
+      "format": "PDF",
+      "name": "ahrq-imi-conditions-2021",
+      "path": "ahrq-imi-conditions-2021.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/60f5e34d-c587-4b3d-a0e9-1b3c30d17586/download/ahrq_imi_v2022_conditions2021-ada.pdf",
+          "title": "AHRQ IMI Conditions 2021"
+        }
+      ],
+      "title": "AHRQ IMI Conditions 2021"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 5 procedures performed (Abdominal Aortic Aneurysm Repair – open and unruptured, Abdominal Aortic Aneurysm Repair – endovascular and unruptured, Carotid Endarterectomy, Pancreatic Resection, Percutaneous Coronary Intervention) in California hospitals. The 2021 IMIs were generated using AHRQ Version 2022, while previous years' IMIs were generated with older versions of AHRQ software (2020 IMIs by Version 2021, 2019 IMIs by Version 2020, 2016-2018 IMIs by Version 2019, 2014 and 2015 IMIs by Version 5.0, and 2012 and 2013 IMIs by Version 4.5). The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time. However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings.",
+      "format": "PDF",
+      "name": "ahrq-imi-procedures-2021",
+      "path": "ahrq-imi-procedures-2021.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/f25907e8-8a66-4f9d-b3cf-a52b625c1691/download/ahrq_imi_v2022_procedures2021-ada.pdf",
+          "title": "AHRQ IMI Procedures 2021"
+        }
+      ],
+      "title": "AHRQ IMI Procedures 2021"
+    },
+    {
+      "description": "Executive summary for 2020 Inpatient Mortality Indicators report.",
+      "format": "PDF",
+      "name": "ahrq-imi-executive-summary-2020",
+      "path": "ahrq-imi-executive-summary-2020.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/0c353d0e-d43e-442f-abb8-ca990bffdd36/download/imi_executivesummary_2020data-ada.pdf",
+          "title": "AHRQ IMI Executive Summary 2020"
+        }
+      ],
+      "title": "AHRQ IMI Executive Summary 2020"
+    },
+    {
+      "description": "Technical notes for AHRQ Inpatient Mortality Indicators 2020 Data",
+      "format": "PDF",
+      "name": "ahrq-imi-technical-notes-2020",
+      "path": "ahrq-imi-technical-notes-2020.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/c9c5a8bb-96bd-4b6b-b52d-21ed4edd8da8/download/imi_technical_note_2020data_newtemplate-ada.pdf",
+          "title": "AHRQ IMI Technical Notes 2020"
+        }
+      ],
+      "title": "AHRQ IMI Technical Notes 2020"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 6 medical conditions treated (Acute Stroke, Acute Myocardial Infarction, Heart Failure, Gastrointestinal Hemorrhage, Hip Fracture and Pneumonia) in California hospitals. The 2020 IMIs were generated using AHRQ Version 2021, while previous years' IMIs were generated with older versions of AHRQ software (2019 IMIs  by Version 2020, 2016-2018 IMIs by Version 2019, 2014 and 2015 IMIs by Version 5.0, and 2012 and 2013 IMIs by Version 4.5). The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time. However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings.",
+      "format": "PDF",
+      "name": "ahrq-imi-conditions-2020",
+      "path": "ahrq-imi-conditions-2020.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/c266bfee-b4a6-499b-a361-109471a89031/download/ahrq_imi_v2021_conditions2020data_commentletter-ada.pdf",
+          "title": "AHRQ IMI Conditions 2020"
+        }
+      ],
+      "title": "AHRQ IMI Conditions 2020"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 5 procedures performed (Abdominal Aortic Aneurysm Repair – open and unruptured, Abdominal Aortic Aneurysm Repair – endovascular and unruptured, Carotid Endarterectomy, Pancreatic Resection, Percutaneous Coronary Intervention) in California hospitals. The 2020 IMIs were generated using AHRQ Version 2021, while previous years' IMIs were generated with older versions of AHRQ software (2019 IMIs by Version 2020, 2016-2018 IMIs by Version 2019, 2014 and 2015 IMIs by Version 5.0, and 2012 and 2013 IMIs by Version 4.5). The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time. However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings.",
+      "format": "PDF",
+      "name": "ahrq-imi-procedures-2020",
+      "path": "ahrq-imi-procedures-2020.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/1ec6087c-4f9a-4ad4-8d00-aa888730035c/download/ahrq_imi_v2021_procedures2020data_commentletter-ada.pdf",
+          "title": "AHRQ IMI Procedures 2020"
+        }
+      ],
+      "title": "AHRQ IMI Procedures 2020"
+    },
+    {
+      "description": "Executive summary for 2019 Inpatient Mortality Indicators report.",
+      "format": "PDF",
+      "name": "ahrq-imi-executive-summary-2019",
+      "path": "ahrq-imi-executive-summary-2019.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/0b4346c5-854c-44fc-9f32-14d3dec39a7f/download/imi_executivesummary_2019data_final_ada.pdf",
+          "title": "AHRQ IMI Executive Summary 2019"
+        }
+      ],
+      "title": "AHRQ IMI Executive Summary 2019"
+    },
+    {
+      "description": "Technical notes for AHRQ Inpatient Mortality Indicators 2019 Data",
+      "format": "PDF",
+      "name": "ahrq-imi-technical-notes-2019",
+      "path": "ahrq-imi-technical-notes-2019.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/02b96477-383e-42ea-bd87-778909236def/download/imi_technical_note_2019data-ada.pdf",
+          "title": "AHRQ IMI Technical Notes 2019"
+        }
+      ],
+      "title": "AHRQ IMI Technical Notes 2019"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 6 medical conditions treated (Acute Stroke, Acute Myocardial Infarction, Heart Failure, Gastrointestinal Hemorrhage, Hip Fracture and Pneumonia) in California hospitals. The 2019 IMIs were generated using AHRQ Version 2020, while previous years' IMIs were generated with older versions of AHRQ software (2016-2018 IMIs by Version 2019, 2014 and 2015 IMIs by Version 5.0, and 2012 and 2013 IMIs by Version 4.5). The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time. However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings.",
+      "format": "PDF",
+      "name": "ahrq-imi-conditions-2019",
+      "path": "ahrq-imi-conditions-2019.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/8ea6ecdb-1feb-4fb1-870e-4d75d8bc5c74/download/ahrq_imi_v2020_conditions2019-ada_commentletters.pdf",
+          "title": "AHRQ IMI Conditions 2019"
+        }
+      ],
+      "title": "AHRQ IMI Conditions 2019"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 5 procedures performed (Abdominal Aortic Aneurysm Repair – open and unruptured, Abdominal Aortic Aneurysm Repair – endovascular and unruptured, Carotid Endarterectomy, Pancreatic Resection, Percutaneous Coronary Intervention) in California hospitals. The 2019 IMIs were generated using AHRQ Version 2020, while previous years' IMIs were generated with older versions of AHRQ software (2016-2018 IMIs by Version 2019, 2014 and 2015 IMIs by Version 5.0, and 2012 and 2013 IMIs by Version 4.5). The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time. However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings.",
+      "format": "PDF",
+      "name": "ahrq-imi-procedures-2019",
+      "path": "ahrq-imi-procedures-2019.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/b68db513-0707-4ce5-a8fb-1d6ee8ad2ba5/download/ahrq_imi_v2020_procedures2019-ada_commentletters.pdf",
+          "title": "AHRQ IMI Procedures 2019"
+        }
+      ],
+      "title": "AHRQ IMI Procedures 2019"
+    },
+    {
+      "description": "Executive summary for 2016-2018 Inpatient Mortality Indicators report.",
+      "format": "PDF",
+      "name": "ahrq-imi-executive-summary-2016-2018",
+      "path": "ahrq-imi-executive-summary-2016-2018.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/1705375c-e5a9-4cc2-99cc-29d894464bc7/download/imi_executivesummary_2016-2018data_09212020.ada.pdf",
+          "title": "AHRQ IMI Executive Summary 2016-2018"
+        }
+      ],
+      "title": "AHRQ IMI Executive Summary 2016-2018"
+    },
+    {
+      "description": "Technical notes for AHRQ Inpatient Mortality Indicators 2016-2018 Data",
+      "format": "PDF",
+      "name": "ahrq-imi-technical-notes-2016-2018",
+      "path": "ahrq-imi-technical-notes-2016-2018.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/1818439d-a4d7-440e-8231-f8688fccc96c/download/imi_technical_notes_2016-2018data_09212020.ada.pdf",
+          "title": "AHRQ IMI Technical Notes 2016-2018"
+        }
+      ],
+      "title": "AHRQ IMI Technical Notes 2016-2018"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 6 medical conditions treated (Acute Stroke, Acute Myocardial Infarction, Heart Failure, Gastrointestinal Hemorrhage, Hip Fracture and Pneumonia) and 6 procedures performed (Abdominal Aortic Aneurysm Repair, Carotid Endarterectomy, Esophageal Resection, Pancreatic Resection, Percutaneous Coronary Intervention) in California hospitals. The 2016-2018 IMIs were generated using AHRQ Version 2019, while previous years' IMIs were generated with older versions of AHRQ software (2014 and 2015 IMIs by Version 5.0 and 2012 and 2013 IMIs by Version 4.5). The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time. However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings.",
+      "format": "PDF",
+      "name": "2016-2018-data-dictionary-inpatient-mortality-indicators",
+      "path": "2016-2018-data-dictionary-inpatient-mortality-indicators.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/605d1be3-0dae-427b-a026-9a6fa7109e6d/download/data-dictionary-inpatient-mortality-indicators-2016-2018.pdf",
+          "title": "2016-2018 Data Dictionary Inpatient Mortality Indicators"
+        }
+      ],
+      "title": "2016-2018 Data Dictionary Inpatient Mortality Indicators"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 6 medical conditions treated (Acute Stroke, Acute Myocardial Infarction, Heart Failure, Gastrointestinal Hemorrhage, Hip Fracture and Pneumonia) in California hospitals. The 2016-2018 IMIs were generated using AHRQ Version 2019, while previous years' IMIs were generated with older versions of AHRQ software (2014 and 2015 IMIs by Version 5.0 and 2012 and 2013 IMIs by Version 4.5). The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time. However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings.",
+      "format": "PDF",
+      "name": "ahrq-imi-conditions-2018",
+      "path": "ahrq-imi-conditions-2018.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/26001897-e438-4639-83bb-5dd3da68f1c4/download/ahrq_imi_v2019_conditions2018_09212020.ada.pdf",
+          "title": "AHRQ IMI Conditions 2018"
+        }
+      ],
+      "title": "AHRQ IMI Conditions 2018"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 5 procedures performed (Abdominal Aortic Aneurysm Repair, Carotid Endarterectomy, Esophageal Resection, Pancreatic Resection, Percutaneous Coronary Intervention) in California hospitals. The 2016-2018 IMIs were generated using AHRQ Version 2019, while previous years' IMIs were generated with older versions of AHRQ software (2014 and 2015 IMIs by Version 5.0 and 2012 and 2013 IMIs by Version 4.5).  The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time. However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings.",
+      "format": "PDF",
+      "name": "ahrq-imi-procedures-2018",
+      "path": "ahrq-imi-procedures-2018.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/7d04710f-c5f1-49a3-ab49-e878c4fcd904/download/ahrq_imi_v2019_procedures2018_09212020-ada.pdf",
+          "title": "AHRQ IMI Procedures 2018"
+        }
+      ],
+      "title": "AHRQ IMI Procedures 2018"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 6 medical conditions treated (Acute Stroke, Acute Myocardial Infarction, Heart Failure, Gastrointestinal Hemorrhage, Hip Fracture and Pneumonia) in California hospitals. The 2016-2018 IMIs were generated using AHRQ Version 2019, while previous years' IMIs were generated with older versions of AHRQ software (2014 and 2015 IMIs by Version 5.0 and 2012 and 2013 IMIs by Version 4.5). The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time. However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings.",
+      "format": "PDF",
+      "name": "ahrq-imi-conditions-2017",
+      "path": "ahrq-imi-conditions-2017.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/cacfd2d2-5935-4edf-b989-97e7ba20ad63/download/ahrq_imi_v2019_conditions2017_09212020.ada.pdf",
+          "title": "AHRQ IMI Conditions 2017"
+        }
+      ],
+      "title": "AHRQ IMI Conditions 2017"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 5 procedures performed (Abdominal Aortic Aneurysm Repair, Carotid Endarterectomy, Esophageal Resection, Pancreatic Resection, Percutaneous Coronary Intervention) in California hospitals. The 2016-2018 IMIs were generated using AHRQ Version 2019, while previous years' IMIs were generated with older versions of AHRQ software (2014 and 2015 IMIs by Version 5.0 and 2012 and 2013 IMIs by Version 4.5). The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time. However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings.",
+      "format": "PDF",
+      "name": "ahrq-imi-procedures-2017",
+      "path": "ahrq-imi-procedures-2017.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/e51b9cdd-a6b2-40e5-bd26-75d735b04262/download/ahrq_imi_v2019_procedures2017_09212020-ada.pdf",
+          "title": "AHRQ IMI Procedures 2017"
+        }
+      ],
+      "title": "AHRQ IMI Procedures 2017"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 6 medical conditions treated (Acute Stroke, Acute Myocardial Infarction, Heart Failure, Gastrointestinal Hemorrhage, Hip Fracture and Pneumonia) in California hospitals. The 2016-2018 IMIs were generated using AHRQ Version 2019, while previous years' IMIs were generated with older versions of AHRQ software (2014 and 2015 IMIs by Version 5.0 and 2012 and 2013 IMIs by Version 4.5). The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time. However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings.",
+      "format": "PDF",
+      "name": "ahrq-imi-conditions-2016",
+      "path": "ahrq-imi-conditions-2016.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/5345b6a1-11dc-4ead-9f73-6b7e52af53ee/download/ahrq_imi_v2019_conditions2016_09212020.ada.pdf",
+          "title": "AHRQ IMI Conditions 2016"
+        }
+      ],
+      "title": "AHRQ IMI Conditions 2016"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 5 procedures performed (Abdominal Aortic Aneurysm Repair, Carotid Endarterectomy, Esophageal Resection, Pancreatic Resection, Percutaneous Coronary Intervention) in California hospitals. The 2016-2018 IMIs were generated using AHRQ Version 2019, while previous years' IMIs were generated with older versions of AHRQ software (2014 and 2015 IMIs by Version 5.0 and 2012 and 2013 IMIs by Version 4.5). The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time. However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings. ",
+      "format": "PDF",
+      "name": "ahrq-imi-procedures-2016",
+      "path": "ahrq-imi-procedures-2016.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/4918c367-756b-4ecb-b181-7c130f2f2b6a/download/ahrq_imi_v2019_procedures2016_09212020-ada.pdf",
+          "title": "AHRQ IMI Procedures 2016"
+        }
+      ],
+      "title": "AHRQ IMI Procedures 2016"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 6 medical conditions treated (Acute Stroke, Acute Myocardial Infarction, Heart Failure, Gastrointestinal Hemorrhage, Hip Fracture and Pneumonia) and 6 procedures performed (Abdominal Aortic Aneurysm Repair, Carotid Endarterectomy, Craniotomy, Esophageal Resection, Pancreatic Resection, Percutaneous Coronary Intervention) in California hospitals. The 2014 and 2015 IMIs were generated using AHRQ Version 5.0, while the 2012 and 2013 IMIs were generated using AHRQ Version 4.5, and the 2010 and 2011 IMIs were generated using AHRQ Version 4.4.  The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time.  However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings. Please refer to statewide table for California overall rates. https://chhs.data.ca.gov/Healthcare/California-Statewide-Inpatient-Mortality-Rates-201/nmyg-79m3",
+      "format": "CSV",
+      "hash": "591b87dede5692db0afef0d9bd4cd084",
+      "name": "2010-2015-california-hospital-inpatient-mortality-rates-and-quality-ratings-csv",
+      "path": "2010-2015-california-hospital-inpatient-mortality-rates-and-quality-ratings-.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "YEAR",
+            "type": "string"
+          },
+          {
+            "name": "COUNTY",
+            "type": "string"
+          },
+          {
+            "name": "HOSPITAL",
+            "type": "string"
+          },
+          {
+            "name": "OSHPDID",
+            "type": "string"
+          },
+          {
+            "name": "Procedure/Condition",
+            "type": "string"
+          },
+          {
+            "name": "Risk Adjuested Mortality Rate",
+            "type": "string"
+          },
+          {
+            "name": "# of Deaths",
+            "type": "string"
+          },
+          {
+            "name": "# of Cases",
+            "type": "string"
+          },
+          {
+            "name": "Hospital Ratings",
+            "type": "string"
+          },
+          {
+            "name": "LONGITUDE",
+            "type": "string"
+          },
+          {
+            "name": "LATITUDE",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/5012b03a-fc44-4709-a060-1fb448947377/download/ca-oshpd-ahrq-imi-long-1015.csv",
+          "title": "2010-2015 California Hospital Inpatient Mortality Rates and Quality Ratings (CSV)"
+        }
+      ],
+      "title": "2010-2015 California Hospital Inpatient Mortality Rates and Quality Ratings (CSV)"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 6 medical conditions treated (Acute Stroke, Acute Myocardial Infarction, Heart Failure, Gastrointestinal Hemorrhage, Hip Fracture and Pneumonia) and 6 procedures performed (Abdominal Aortic Aneurysm Repair, Carotid Endarterectomy, Craniotomy, Esophageal Resection, Pancreatic Resection, Percutaneous Coronary Intervention) in California hospitals. The 2014 and 2015 IMIs were generated using AHRQ Version 5.0, while the 2013 and 2014 IMIs were generated using AHRQ Version 4.5.  The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time.  However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings. Please refer to statewide table for California overall rates. https://chhs.data.ca.gov/Healthcare/California-Statewide-Inpatient-Mortality-Rates-201/nmyg-79m3",
+      "format": "PDF",
+      "name": "data-dictionary-inpatient-mortality-indicators",
+      "path": "data-dictionary-inpatient-mortality-indicators.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/357d958a-01ab-4c90-89d4-e43abf167955/download/data-dictionary-inpatient-mortality-indicators-2015.pdf",
+          "title": "Data Dictionary Inpatient Mortality Indicators"
+        }
+      ],
+      "title": "Data Dictionary Inpatient Mortality Indicators"
+    },
+    {
+      "description": "Executive summary for  2015 Inpatient Mortality Indicators report.",
+      "format": "PDF",
+      "name": "ahrq-imi-executive-summary-2015",
+      "path": "ahrq-imi-executive-summary-2015.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/5f276102-69de-4b8a-993e-8508aeb8d343/download/ahrqimiexecutivesummaryweb2015datawordpress.pdf",
+          "title": "AHRQ IMI Executive Summary 2015"
+        }
+      ],
+      "title": "AHRQ IMI Executive Summary 2015"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 6 medical conditions treated (Acute Stroke, Acute Myocardial Infarction, Heart Failure, Gastrointestinal Hemorrhage, Hip Fracture and Pneumonia) in California hospitals. The 2014 and 2015 IMIs were generated using AHRQ Version 5.0, while the 2012 and 2013 IMIs were generated using AHRQ Version 4.5. The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time. However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings. Please refer to statewide table for California overall rates. https://chhs.data.ca.gov/Healthcare/California-Statewide-Inpatient-Mortality-Rates-201/nmyg-79m3",
+      "format": "PDF",
+      "name": "ahrq-imi-conditions-2015",
+      "path": "ahrq-imi-conditions-2015.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/0a014a67-a03b-45b5-a0a3-7d3c017a5fb9/download/ahrq-imi-conditions-v5-2015.pdf",
+          "title": "AHRQ IMI Conditions 2015"
+        }
+      ],
+      "title": "AHRQ IMI Conditions 2015"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 6 medical conditions treated (Acute Stroke, Acute Myocardial Infarction, Heart Failure, Gastrointestinal Hemorrhage, Hip Fracture and Pneumonia) in California hospitals. The 2014 and 2015 IMIs were generated using AHRQ Version 5.0, while the 2012 and 2013 IMIs were generated using AHRQ Version 4.5. The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time. However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings. Please refer to statewide table for California overall rates. https://chhs.data.ca.gov/Healthcare/California-Statewide-Inpatient-Mortality-Rates-201/nmyg-79m3",
+      "format": "XLS",
+      "hash": "ff46f6c92309b39e2a3dc69e2034058b",
+      "name": "ahrq-imi-conditions-20150",
+      "path": "ahrq-imi-conditions-20150.xls",
+      "schema": {
+        "fields": [
+          {
+            "name": "COUNTY",
+            "type": "string"
+          },
+          {
+            "name": "HOSPITAL",
+            "type": "string"
+          },
+          {
+            "name": "COMMENT LETTERS",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE MYOCARDIAL INFARCTION\n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE MYOCARDIAL INFARCTION\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE MYOCARDIAL INFARCTION\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE MYOCARDIAL INFARCTION\n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, TOTAL\n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, TOTAL                  (# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, TOTAL                 (# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, TOTAL          (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, HEMORRHAGIC \n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, HEMORRHAGIC              (# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, HEMORRHAGIC              (# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, HEMORRHAGIC    (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, ISCHEMIC \n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, ISCHEMIC                       (# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, ISCHEMIC                       (# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, ISCHEMIC              (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, SUBARACHNOID \n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, SUBARACHNOID\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, SUBARACHNOID\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, SUBARACHNOID   (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "GI HEMORRHAGE \n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "GI HEMORRHAGE\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "GI HEMORRHAGE\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "GI HEMORRHAGE (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "HEART FAILURE \n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "HEART FAILURE\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "HEART FAILURE\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "HEART FAILURE\n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "HIP FRACTURE \n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "HIP FRACTURE\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "HIP FRACTURE\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "HIP FRACTURE     (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "PNEUMONIA \n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "PNEUMONIA\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "PNEUMONIA\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "PNEUMONIA         (Outlier Ratings)",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/21ac9076-c372-4ff2-ac63-36a1ef04eae9/download/ahrq-imi-conditions-v5-2015.xls",
+          "title": "AHRQ IMI Conditions 2015"
+        }
+      ],
+      "title": "AHRQ IMI Conditions 2015"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 6 procedures performed (Abdominal Aortic Aneurysm Repair, Carotid Endarterectomy, Craniotomy, Esophageal Resection, Pancreatic Resection, Percutaneous Coronary Intervention) in California hospitals. The 2014 and 2015 IMIs were generated using AHRQ Version 5.0, while the 2012 and 2013 IMIs were generated using AHRQ Version 4.5. The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time. However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings. Please refer to statewide table for California overall rates. https://chhs.data.ca.gov/Healthcare/California-Statewide-Inpatient-Mortality-Rates-201/nmyg-79m3",
+      "format": "PDF",
+      "name": "ahrq-imi-procedures-2015",
+      "path": "ahrq-imi-procedures-2015.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/869e4de4-8ca0-4396-8bd4-c3c9ba1e405d/download/ahrq-imi-procedures-v5-2015.pdf",
+          "title": "AHRQ IMI Procedures 2015"
+        }
+      ],
+      "title": "AHRQ IMI Procedures 2015"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 6 procedures performed (Abdominal Aortic Aneurysm Repair, Carotid Endarterectomy, Craniotomy, Esophageal Resection, Pancreatic Resection, Percutaneous Coronary Intervention) in California hospitals. The 2014 and 2015 IMIs were generated using AHRQ Version 5.0, while the 2012 and 2013 IMIs were generated using AHRQ Version 4.5. The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time. However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings. Please refer to statewide table for California overall rates. https://chhs.data.ca.gov/Healthcare/California-Statewide-Inpatient-Mortality-Rates-201/nmyg-79m3",
+      "format": "XLS",
+      "hash": "c7fcea49b686ef8e37c4a5fa3ab07faf",
+      "name": "ahrq-imi-procedures-20150",
+      "path": "ahrq-imi-procedures-20150.xls",
+      "schema": {
+        "fields": [
+          {
+            "name": "COUNTY",
+            "type": "string"
+          },
+          {
+            "name": "HOSPITAL",
+            "type": "string"
+          },
+          {
+            "name": "COMMENT LETTERS",
+            "type": "string"
+          },
+          {
+            "name": "AAA REPAIR,               UNRUPTURED \n(Risk-Adjusted \nMortality",
+            "type": "string"
+          },
+          {
+            "name": "AAA REPAIR, UNRUPTURED\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "AAA REPAIR, UNRUPTURED\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "AAA REPAIR, UNRUPTURED\n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "CAROTID ENDARTERECTOMY \n(Risk-Adjusted \nMortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "CAROTID ENDARTERECTOMY\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "CAROTID ENDARTERECTOMY\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "CAROTID ENDARTERECTOMY\n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "CRANIOTOMY \n(Risk-Adjusted \nMortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "CRANIOTOMY \n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "CRANIOTOMY\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "CRANIOTOMY \n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "ESOPHAGEAL RESECTION \n(Risk-Adjusted \nMortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "ESOPHAGEAL RESECTION\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "ESOPHAGEAL RESECTION\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "ESOPHAGEAL RESECTION\n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, \nTOTAL \n(Risk-Adjusted \nMortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, \nTOTAL \n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, \nTOTAL \n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, \nTOTAL\n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, \nCANCER \n(Risk-Adjusted \nMortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, \nCANCER\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, \nCANCER \n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, \nCANCER \n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, \nOTHER \n(Risk-Adjusted \nMortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, \nOTHER\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, \nOTHER \n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, \nOTHER\n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "PERCUTANEOUS CORONARY INTERVENTION \n(Risk-Adjusted \nMortality R",
+            "type": "string"
+          },
+          {
+            "name": "PERCUTANEOUS CORONARY INTERVENTION \n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "PERCUTANEOUS CORONARY INTERVENTION \n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "PERCUTANEOUS CORONARY INTERVENTION\n(Outlier Ratings)",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/1cd3a516-7810-4a1a-a85e-83b6dcccba46/download/ahrq-imi-procedures-v5-2015.xls",
+          "title": "AHRQ IMI Procedures 2015"
+        }
+      ],
+      "title": "AHRQ IMI Procedures 2015"
+    },
+    {
+      "description": "Technical notes for AHRQ Inpatient Mortality Indicators 2015 Data",
+      "format": "PDF",
+      "name": "ahrq-imi-technical-notes-for-2015",
+      "path": "ahrq-imi-technical-notes-for-2015.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/6f2ee65d-66ab-4309-a485-29b0a162e5d2/download/revised_technical_notes_2015data_v50.pdf",
+          "title": "AHRQ IMI Technical Notes for 2015"
+        }
+      ],
+      "title": "AHRQ IMI Technical Notes for 2015"
+    },
+    {
+      "description": "AHRQ Inpatient Mortality Indicators Executive Summary 2014",
+      "format": "PDF",
+      "name": "ahrq-imi-executive-summary-2014",
+      "path": "ahrq-imi-executive-summary-2014.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/3c1148bc-7ee4-45c5-a6a6-434990df3eca/download/ahrqimiexecutivesummaryweb2014datawordpress.pdf",
+          "title": "AHRQ IMI Executive Summary 2014"
+        }
+      ],
+      "title": "AHRQ IMI Executive Summary 2014"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 6 medical conditions treated (Acute Stroke, Acute Myocardial Infarction, Heart Failure, Gastrointestinal Hemorrhage, Hip Fracture and Pneumonia) in California hospitals. The 2014 and 2015 IMIs were generated using AHRQ Version 5.0, while the 2012 and 2013 IMIs were generated using AHRQ Version 4.5. The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time. However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings. Please refer to statewide table for California overall rates. https://chhs.data.ca.gov/Healthcare/California-Statewide-Inpatient-Mortality-Rates-201/nmyg-79m3",
+      "format": "PDF",
+      "name": "ahrq-imi-conditions-2014",
+      "path": "ahrq-imi-conditions-2014.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/e47dc71f-d4ee-40b3-95ee-31fa89982c97/download/ahrq-imi-conditions-v5-2014.pdf",
+          "title": "AHRQ IMI Conditions 2014"
+        }
+      ],
+      "title": "AHRQ IMI Conditions 2014"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 6 medical conditions treated (Acute Stroke, Acute Myocardial Infarction, Heart Failure, Gastrointestinal Hemorrhage, Hip Fracture and Pneumonia) in California hospitals. The 2014 and 2015 IMIs were generated using AHRQ Version 5.0, while the 2012 and 2013 IMIs were generated using AHRQ Version 4.5. The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time. However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings. Please refer to statewide table for California overall rates. https://chhs.data.ca.gov/Healthcare/California-Statewide-Inpatient-Mortality-Rates-201/nmyg-79m3",
+      "format": "XLS",
+      "hash": "921bb1d1e7866fda2fa4d9c5810f3f3f",
+      "name": "ahrq-imi-conditions-20140",
+      "path": "ahrq-imi-conditions-20140.xls",
+      "schema": {
+        "fields": [
+          {
+            "name": "COUNTY",
+            "type": "string"
+          },
+          {
+            "name": "HOSPITAL",
+            "type": "string"
+          },
+          {
+            "name": "COMMENT LETTERS",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE MYOCARDIAL INFARCTION\n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE MYOCARDIAL INFARCTION\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE MYOCARDIAL INFARCTION\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE MYOCARDIAL INFARCTION\n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, TOTAL\n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, TOTAL                  (# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, TOTAL                 (# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, TOTAL          (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, HEMORRHAGIC \n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, HEMORRHAGIC              (# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, HEMORRHAGIC              (# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, HEMORRHAGIC    (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, ISCHEMIC \n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, ISCHEMIC                       (# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, ISCHEMIC                       (# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, ISCHEMIC              (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, SUBARACHNOID \n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, SUBARACHNOID\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, SUBARACHNOID\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, SUBARACHNOID   (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "GI HEMORRHAGE \n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "GI HEMORRHAGE\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "GI HEMORRHAGE\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "GI HEMORRHAGE (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "HEART FAILURE \n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "HEART FAILURE\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "HEART FAILURE\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "HEART FAILURE\n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "HIP FRACTURE \n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "HIP FRACTURE\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "HIP FRACTURE\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "HIP FRACTURE     (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "PNEUMONIA \n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "PNEUMONIA\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "PNEUMONIA\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "PNEUMONIA         (Outlier Ratings)",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/35f9e10e-6b3e-4234-87c3-5c036a731b5f/download/ahrq-imi-conditions-v5-2014.xls",
+          "title": "AHRQ IMI Conditions 2014"
+        }
+      ],
+      "title": "AHRQ IMI Conditions 2014"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 6 procedures performed (Abdominal Aortic Aneurysm Repair, Carotid Endarterectomy, Craniotomy, Esophageal Resection, Pancreatic Resection, Percutaneous Coronary Intervention) in California hospitals. The 2014 and 2015 IMIs were generated using AHRQ Version 5.0, while the 2012 and 2013 IMIs were generated using AHRQ Version 4.5. The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time. However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings. Please refer to statewide table for California overall rates. https://chhs.data.ca.gov/Healthcare/California-Statewide-Inpatient-Mortality-Rates-201/nmyg-79m3",
+      "format": "PDF",
+      "name": "ahrq-imi-procedures-2014",
+      "path": "ahrq-imi-procedures-2014.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/3fbb2027-93ab-46dc-8828-51201b19f256/download/ahrq-imi-procedures-v5-2014.pdf",
+          "title": "AHRQ IMI Procedures 2014"
+        }
+      ],
+      "title": "AHRQ IMI Procedures 2014"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 6 procedures performed (Abdominal Aortic Aneurysm Repair, Carotid Endarterectomy, Craniotomy, Esophageal Resection, Pancreatic Resection, Percutaneous Coronary Intervention) in California hospitals. The 2014 and 2015 IMIs were generated using AHRQ Version 5.0, while the 2012 and 2013 IMIs were generated using AHRQ Version 4.5. The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time. However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings. Please refer to statewide table for California overall rates. https://chhs.data.ca.gov/Healthcare/California-Statewide-Inpatient-Mortality-Rates-201/nmyg-79m3",
+      "format": "XLS",
+      "hash": "d884d5c6d0e6b8082cac462fba885858",
+      "name": "ahrq-imi-procedures-20140",
+      "path": "ahrq-imi-procedures-20140.xls",
+      "schema": {
+        "fields": [
+          {
+            "name": "COUNTY",
+            "type": "string"
+          },
+          {
+            "name": "HOSPITAL",
+            "type": "string"
+          },
+          {
+            "name": "COMMENT LETTERS",
+            "type": "string"
+          },
+          {
+            "name": "AAA REPAIR,               UNRUPTURED \n(Risk-Adjusted \nMortality",
+            "type": "string"
+          },
+          {
+            "name": "AAA REPAIR, UNRUPTURED\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "AAA REPAIR, UNRUPTURED\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "AAA REPAIR, UNRUPTURED\n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "CAROTID ENDARTERECTOMY \n(Risk-Adjusted \nMortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "CAROTID ENDARTERECTOMY\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "CAROTID ENDARTERECTOMY\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "CAROTID ENDARTERECTOMY\n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "CRANIOTOMY \n(Risk-Adjusted \nMortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "CRANIOTOMY \n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "CRANIOTOMY\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "CRANIOTOMY \n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "ESOPHAGEAL RESECTION \n(Risk-Adjusted \nMortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "ESOPHAGEAL RESECTION\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "ESOPHAGEAL RESECTION\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "ESOPHAGEAL RESECTION\n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, \nTOTAL \n(Risk-Adjusted \nMortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, \nTOTAL \n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, \nTOTAL \n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, \nTOTAL\n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, \nCANCER \n(Risk-Adjusted \nMortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, \nCANCER\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, \nCANCER \n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, \nCANCER \n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, \nOTHER \n(Risk-Adjusted \nMortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, \nOTHER\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, \nOTHER \n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, \nOTHER\n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "PERCUTANEOUS CORONARY INTERVENTION \n(Risk-Adjusted \nMortality R",
+            "type": "string"
+          },
+          {
+            "name": "PERCUTANEOUS CORONARY INTERVENTION \n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "PERCUTANEOUS CORONARY INTERVENTION \n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "PERCUTANEOUS CORONARY INTERVENTION\n(Outlier Ratings)",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/2c996312-2c47-4633-b31b-520d7af8867b/download/ahrq-imi-procedures-v5-2014.xls",
+          "title": "AHRQ IMI Procedures 2014"
+        }
+      ],
+      "title": "AHRQ IMI Procedures 2014"
+    },
+    {
+      "description": "AHRQ Inpatient Mortality Indicators Technical Notes for 2014",
+      "format": "PDF",
+      "name": "ahrq-imi-technical-notes-2014",
+      "path": "ahrq-imi-technical-notes-2014.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/abbf4514-c1ae-4af1-b4e5-ecbaa8dc5a7d/download/ahrq-imi-technical-notes-2014.pdf",
+          "title": "AHRQ IMI Technical Notes 2014"
+        }
+      ],
+      "title": "AHRQ IMI Technical Notes 2014"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 6 medical conditions treated (Acute Stroke, Acute Myocardial Infarction, Heart Failure, Gastrointestinal Hemorrhage, Hip Fracture and Pneumonia)  in California hospitals. The 2014 and 2015 IMIs were generated using AHRQ Version 5.0, while the 2012 and 2013 IMIs were generated using AHRQ Version 4.5.  The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time.  However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings. Please refer to statewide table for California overall rates. https://chhs.data.ca.gov/Healthcare/California-Statewide-Inpatient-Mortality-Rates-201/nmyg-79m3",
+      "format": "PDF",
+      "name": "ahrq-imi-conditions-2013",
+      "path": "ahrq-imi-conditions-2013.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/453f08c5-e3b4-4094-8d21-c4f6a7de5bdf/download/ahrq-imi-conditions-v4.5-2013.pdf",
+          "title": "AHRQ IMI Conditions 2013"
+        }
+      ],
+      "title": "AHRQ IMI Conditions 2013"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 6 medical conditions treated (Acute Stroke, Acute Myocardial Infarction, Heart Failure, Gastrointestinal Hemorrhage, Hip Fracture and Pneumonia)  in California hospitals. The 2014 and 2015 IMIs were generated using AHRQ Version 5.0, while the 2012 and 2013 IMIs were generated using AHRQ Version 4.5.  The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time.  However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings. Please refer to statewide table for California overall rates. https://chhs.data.ca.gov/Healthcare/California-Statewide-Inpatient-Mortality-Rates-201/nmyg-79m3",
+      "format": "XLS",
+      "hash": "69518bce425638b6319aa1cb627997be",
+      "name": "ahrq-imi-conditions-20130",
+      "path": "ahrq-imi-conditions-20130.xls",
+      "schema": {
+        "fields": [
+          {
+            "name": "COUNTY",
+            "type": "string"
+          },
+          {
+            "name": "HOSPITAL",
+            "type": "string"
+          },
+          {
+            "name": "COMMENT LETTERS",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE MYOCARDIAL INFARCTION\n(Risk-Adjusted Mortality Rate)",
+            "type": "number"
+          },
+          {
+            "name": "ACUTE MYOCARDIAL INFARCTION\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE MYOCARDIAL INFARCTION\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE MYOCARDIAL INFARCTION\n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, TOTAL\n(Risk-Adjusted Mortality Rate)",
+            "type": "number"
+          },
+          {
+            "name": "ACUTE STROKE, TOTAL                  (# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, TOTAL                 (# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, TOTAL          (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, HEMORRHAGIC \n(Risk-Adjusted Mortality Rate)",
+            "type": "number"
+          },
+          {
+            "name": "ACUTE STROKE, HEMORRHAGIC       (# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, HEMORRHAGIC   (# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, HEMORRHAGIC (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, ISCHEMIC \n(Risk-Adjusted Mortality Rate)",
+            "type": "number"
+          },
+          {
+            "name": "ACUTE STROKE, ISCHEMIC              (# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, ISCHEMIC             (# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, ISCHEMIC     (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, SUBARACHNOID \n(Risk-Adjusted Mortality Rate)",
+            "type": "number"
+          },
+          {
+            "name": "ACUTE STROKE, SUBARACHNOID (# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, SUBARACHNOID  (# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, SUBARACHNOID (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "GI HEMORRHAGE \n(Risk-Adjusted Mortality Rate)",
+            "type": "number"
+          },
+          {
+            "name": "GI HEMORRHAGE\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "GI HEMORRHAGE\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "GI HEMORRHAGE (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "HEART FAILURE \n(Risk-Adjusted Mortality Rate)",
+            "type": "number"
+          },
+          {
+            "name": "HEART FAILURE\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "HEART FAILURE\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "HEART FAILURE\n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "HIP FRACTURE \n(Risk-Adjusted Mortality Rate)",
+            "type": "number"
+          },
+          {
+            "name": "HIP FRACTURE\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "HIP FRACTURE\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "HIP FRACTURE (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "PNEUMONIA \n(Risk-Adjusted Mortality Rate)",
+            "type": "number"
+          },
+          {
+            "name": "PNEUMONIA\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "PNEUMONIA\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "PNEUMONIA (Outlier Ratings)",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/75e24945-3f6b-46d8-b7c4-456c398427c9/download/ahrq-imi-conditions-v4.5-2013.xls",
+          "title": "AHRQ IMI Conditions 2013"
+        }
+      ],
+      "title": "AHRQ IMI Conditions 2013"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for  6 procedures performed (Abdominal Aortic Aneurysm Repair, Carotid Endarterectomy, Craniotomy, Esophageal Resection, Pancreatic Resection, Percutaneous Coronary Intervention) in California hospitals. The 2014 and 2015 IMIs were generated using AHRQ Version 5.0, while the 2012 and 2013 IMIs were generated using AHRQ Version 4.5.  The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time.  However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings. Please refer to statewide table for California overall rates. https://chhs.data.ca.gov/Healthcare/California-Statewide-Inpatient-Mortality-Rates-201/nmyg-79m3",
+      "format": "PDF",
+      "name": "ahrq-imi-procedures-2013",
+      "path": "ahrq-imi-procedures-2013.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/2172ab3f-af7d-4e91-9088-505e563bd608/download/ahrq-imi-procedures-v4.5-2013.pdf",
+          "title": "AHRQ IMI Procedures 2013"
+        }
+      ],
+      "title": "AHRQ IMI Procedures 2013"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 6 procedures performed (Abdominal Aortic Aneurysm Repair, Carotid Endarterectomy, Craniotomy, Esophageal Resection, Pancreatic Resection, Percutaneous Coronary Intervention) in California hospitals. The 2014 and 2015 IMIs were generated using AHRQ Version 5.0, while the 2012 and 2013 IMIs were generated using AHRQ Version 4.5.  The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time.  However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings. Please refer to statewide table for California overall rates. https://chhs.data.ca.gov/Healthcare/California-Statewide-Inpatient-Mortality-Rates-201/nmyg-79m3",
+      "format": "XLS",
+      "hash": "0b2aa2c812933f3cfb344d53fa11fd0a",
+      "name": "ahrq-imi-procedures-20130",
+      "path": "ahrq-imi-procedures-20130.xls",
+      "schema": {
+        "fields": [
+          {
+            "name": "COUNTY",
+            "type": "string"
+          },
+          {
+            "name": "HOSPITAL",
+            "type": "string"
+          },
+          {
+            "name": "COMMENT LETTERS",
+            "type": "string"
+          },
+          {
+            "name": "AAA REPAIR,               UNRUPTURED     (Risk-Adjusted Mortali",
+            "type": "number"
+          },
+          {
+            "name": "AAA REPAIR, UNRUPTURED   (# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "AAA REPAIR, UNRUPTURED    (# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "AAA REPAIR, UNRUPTURED (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "CAROTID ENDARTERECTOMY \n(Risk-Adjusted Mortality Rate)",
+            "type": "number"
+          },
+          {
+            "name": "CAROTID ENDARTERECTOMY\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "CAROTID ENDARTERECTOMY\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "CAROTID ENDARTERECTOMY\n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "CRANIOTOMY \n(Risk-Adjusted Mortality Rate)",
+            "type": "number"
+          },
+          {
+            "name": "CRANIOTOMY (# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "CRANIOTOMY         (# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "CRANIOTOMY (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "ESOPHAGEAL RESECTION \n(Risk-Adjusted Mortality Rate)",
+            "type": "number"
+          },
+          {
+            "name": "ESOPHAGEAL RESECTION\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "ESOPHAGEAL RESECTION\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "ESOPHAGEAL RESECTION\n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, TOTAL \n(Risk-Adjusted Mortality Rate)",
+            "type": "number"
+          },
+          {
+            "name": "PANCREATIC RESECTION, TOTAL \n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, TOTAL \n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, TOTAL\n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, CANCER \n(Risk-Adjusted Mortality Rate)",
+            "type": "number"
+          },
+          {
+            "name": "PANCREATIC RESECTION, CANCER             (# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, CANCER              (# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, CANCER \n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, OTHER \n(Risk-Adjusted Mortality Rate)",
+            "type": "number"
+          },
+          {
+            "name": "PANCREATIC RESECTION, OTHER              (# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, OTHER                (# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, OTHER       (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "PERCUTANEOUS CORONARY INTERVENTION     (Risk-Adjusted Mortality",
+            "type": "number"
+          },
+          {
+            "name": "PERCUTANEOUS CORONARY INTERVENTION \n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "PERCUTANEOUS CORONARY INTERVENTION           (# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "PERCUTANEOUS CORONARY INTERVENTION \n(Outlier Ratings)",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/57257e29-3240-4bae-8ab6-8556a73bfba5/download/ahrq-imi-procedures-v4.5-2013.xls",
+          "title": "AHRQ IMI Procedures 2013"
+        }
+      ],
+      "title": "AHRQ IMI Procedures 2013"
+    },
+    {
+      "description": "AHRQ  Inpatient Mortality Indicators Technical Notes for 2013",
+      "format": "PDF",
+      "name": "ahrq-imi-technical-notes-2013",
+      "path": "ahrq-imi-technical-notes-2013.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/667953fd-fafa-4389-a6a1-9d13ef791224/download/ahrq-imi-technical-notes-2013.pdf",
+          "title": "AHRQ IMI Technical Notes 2013"
+        }
+      ],
+      "title": "AHRQ IMI Technical Notes 2013"
+    },
+    {
+      "description": "Executive summary for  2012 Inpatient Mortality Indicators report.",
+      "format": "PDF",
+      "name": "ahrq-imi-executive-summary-2012",
+      "path": "ahrq-imi-executive-summary-2012.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/dbe82bec-61d2-4f5c-bfd6-97d206381cfb/download/ahrqimiexecutivesummary2012wordpress.pdf",
+          "title": "AHRQ IMI Executive Summary 2012"
+        }
+      ],
+      "title": "AHRQ IMI Executive Summary 2012"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 6 medical conditions treated (Acute Stroke, Acute Myocardial Infarction, Heart Failure, Gastrointestinal Hemorrhage, Hip Fracture and Pneumonia) in California hospitals. The 2014 and 2015 IMIs were generated using AHRQ Version 5.0, while the 2012 and 2013 IMIs were generated using AHRQ Version 4.5. The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time. However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings. Please refer to statewide table for California overall rates. https://chhs.data.ca.gov/Healthcare/California-Statewide-Inpatient-Mortality-Rates-201/nmyg-79m3",
+      "format": "PDF",
+      "name": "2012-ahrq-imi-conditions",
+      "path": "2012-ahrq-imi-conditions.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/1a78fa87-6d7c-4b36-92ed-3960a9d21dba/download/ahrq-imi-conditions-v4.5-2012.pdf",
+          "title": "2012 AHRQ IMI Conditions"
+        }
+      ],
+      "title": "2012 AHRQ IMI Conditions"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 6 medical conditions treated (Acute Stroke, Acute Myocardial Infarction, Heart Failure, Gastrointestinal Hemorrhage, Hip Fracture and Pneumonia)  in California hospitals. The 2014 and 2015 IMIs were generated using AHRQ Version 5.0, while the 2012 and 2013 IMIs were generated using AHRQ Version 4.5.  The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time.  However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings. Please refer to statewide table for California overall rates. https://chhs.data.ca.gov/Healthcare/California-Statewide-Inpatient-Mortality-Rates-201/nmyg-79m3",
+      "format": "XLS",
+      "hash": "4675348af4659b887110e8f456d44782",
+      "name": "2012-ahrq-imi-conditions0",
+      "path": "2012-ahrq-imi-conditions0.xls",
+      "schema": {
+        "fields": [
+          {
+            "name": "COUNTY",
+            "type": "string"
+          },
+          {
+            "name": "HOSPITAL",
+            "type": "string"
+          },
+          {
+            "name": "COMMENT LETTERS",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE MYOCARDIAL INFARCTION\n(Risk-Adjusted Mortality Rate)",
+            "type": "number"
+          },
+          {
+            "name": "ACUTE MYOCARDIAL INFARCTION\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE MYOCARDIAL INFARCTION\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE MYOCARDIAL INFARCTION\n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, TOTAL               (Risk-Adjusted Mortality Rate",
+            "type": "number"
+          },
+          {
+            "name": "ACUTE STROKE, TOTAL                  (# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, TOTAL                 (# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, TOTAL          (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, HEMORRHAGIC   (Risk-Adjusted Mortality Rate)",
+            "type": "number"
+          },
+          {
+            "name": "ACUTE STROKE, HEMORRHAGIC       (# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, HEMORRHAGIC   (# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, HEMORRHAGIC (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, ISCHEMIC         (Risk-Adjusted Mortality Rate)",
+            "type": "number"
+          },
+          {
+            "name": "ACUTE STROKE, ISCHEMIC              (# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, ISCHEMIC             (# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, ISCHEMIC     (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, SUBARACHNOID (Risk-Adjusted Mortality Rate)",
+            "type": "number"
+          },
+          {
+            "name": "ACUTE STROKE, SUBARACHNOID (# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, SUBARACHNOID  (# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE, SUBARACHNOID (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "GI HEMORRHAGE (Risk-Adjusted Mortality Rate)",
+            "type": "number"
+          },
+          {
+            "name": "GI HEMORRHAGE\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "GI HEMORRHAGE\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "GI HEMORRHAGE (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "HEART FAILURE\n(Risk-Adjusted Mortality Rate)",
+            "type": "number"
+          },
+          {
+            "name": "HEART FAILURE\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "HEART FAILURE\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "HEART FAILURE\n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "HIP FRACTURE\n(Risk-Adjusted Mortality Rate)",
+            "type": "number"
+          },
+          {
+            "name": "HIP FRACTURE\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "HIP FRACTURE\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "HIP FRACTURE (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "PNEUMONIA\n(Risk-Adjusted Mortality Rate)",
+            "type": "number"
+          },
+          {
+            "name": "PNEUMONIA\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "PNEUMONIA\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "PNEUMONIA (Outlier Ratings)",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/d8cefa12-c898-4296-84e3-8155232c751c/download/ahrq-imi-conditions-v4.5-2012.xls",
+          "title": "2012 AHRQ IMI Conditions"
+        }
+      ],
+      "title": "2012 AHRQ IMI Conditions"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 6 procedures performed (Abdominal Aortic Aneurysm Repair, Carotid Endarterectomy, Craniotomy, Esophageal Resection, Pancreatic Resection, Percutaneous Coronary Intervention) in California hospitals. The 2014 and 2015 IMIs were generated using AHRQ Version 5.0, while the 2012 and 2013 IMIs were generated using AHRQ Version 4.5. The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time. However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings. Please refer to statewide table for California overall rates. https://chhs.data.ca.gov/Healthcare/California-Statewide-Inpatient-Mortality-Rates-201/nmyg-79m3",
+      "format": "PDF",
+      "name": "2012-ahrq-imi-procedures",
+      "path": "2012-ahrq-imi-procedures.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/7cceda84-2621-4008-8695-4f0032eb9d97/download/ahrq-imi-procedures-v4.5-2012.pdf",
+          "title": "2012 AHRQ IMI Procedures"
+        }
+      ],
+      "title": "2012 AHRQ IMI Procedures"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 6 procedures performed (Abdominal Aortic Aneurysm Repair, Carotid Endarterectomy, Craniotomy, Esophageal Resection, Pancreatic Resection, Percutaneous Coronary Intervention) in California hospitals. The 2014 and 2015 IMIs were generated using AHRQ Version 5.0, while the 2012 and 2013 IMIs were generated using AHRQ Version 4.5. The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time. However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings. Please refer to statewide table for California overall rates. https://chhs.data.ca.gov/Healthcare/California-Statewide-Inpatient-Mortality-Rates-201/nmyg-79m3",
+      "format": "XLS",
+      "hash": "5a89e896b09b0c1106abd55bbbd3fe25",
+      "name": "2012-ahrq-imi-procedures0",
+      "path": "2012-ahrq-imi-procedures0.xls",
+      "schema": {
+        "fields": [
+          {
+            "name": "COUNTY",
+            "type": "string"
+          },
+          {
+            "name": "HOSPITAL",
+            "type": "string"
+          },
+          {
+            "name": "COMMENT LETTERS",
+            "type": "string"
+          },
+          {
+            "name": "AAA REPAIR,               UNRUPTURED     (Risk-Adjusted Mortali",
+            "type": "string"
+          },
+          {
+            "name": "AAA REPAIR, UNRUPTURED   (# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "AAA REPAIR, UNRUPTURED (# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "AAA REPAIR, UNRUPTURED (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "CAROTID ENDARTERECTOMY\n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "CAROTID ENDARTERECTOMY\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "CAROTID ENDARTERECTOMY\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "CAROTID ENDARTERECTOMY\n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "CRANIOTOMY (Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "CRANIOTOMY (# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "CRANIOTOMY         (# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "CRANIOTOMY (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "ESOPHAGEAL RESECTION\n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "ESOPHAGEAL RESECTION\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "ESOPHAGEAL RESECTION\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "ESOPHAGEAL RESECTION\n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, TOTAL           (Risk-Adjusted Mortality",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, TOTAL               (# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, TOTAL             (# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, TOTAL     (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, CANCER (Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, CANCER             (# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, CANCER              (# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, CANCER       (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, OTHER (Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, OTHER              (# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, OTHER                (# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION, OTHER       (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "PERCUTANEOUS CORONARY INTERVENTION     (Risk-Adjusted Mortality",
+            "type": "string"
+          },
+          {
+            "name": "PERCUTANEOUS CORONARY INTERVENTION (# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "PERCUTANEOUS CORONARY INTERVENTION           (# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "PERCUTANEOUS CORONARY INTERVENTION (Outlier Ratings)",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/97cfb491-bbc2-46f6-a5bd-ee3c2440591e/download/ahrq-imi-procedures-v4.5-2012.xls",
+          "title": "2012 AHRQ IMI Procedures"
+        }
+      ],
+      "title": "2012 AHRQ IMI Procedures"
+    },
+    {
+      "description": "Technical notes for 2012 AHRQ Inpatient Mortality Indicators report for California hospitals.",
+      "format": "PDF",
+      "name": "2012-ahrq-imi-technical-notes",
+      "path": "2012-ahrq-imi-technical-notes.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/3a37e287-157c-429c-ad27-aecc47e6118b/download/ahrq-imi-technical-notes-2012.pdf",
+          "title": "2012 AHRQ IMI Technical Notes"
+        }
+      ],
+      "title": "2012 AHRQ IMI Technical Notes"
+    },
+    {
+      "description": "Executive summary for  2010-2011 Inpatient Mortality Indicators report.",
+      "format": "PDF",
+      "name": "ahrq-imi-executive-summary-2010-2011",
+      "path": "ahrq-imi-executive-summary-2010-2011.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/64a16f31-33ee-4b81-9f24-19168f7794c1/download/ahrqimi-executive-summary2010-2011wordpress.pdf",
+          "title": "AHRQ IMI Executive Summary 2010-2011"
+        }
+      ],
+      "title": "AHRQ IMI Executive Summary 2010-2011"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 6 medical conditions treated (Acute Stroke, Acute Myocardial Infarction, Heart Failure, Gastrointestinal Hemorrhage, Hip Fracture and Pneumonia) and 6 procedures performed (Abdominal Aortic Aneurysm Repair, Carotid Endarterectomy, Craniotomy, Esophageal Resection, Pancreatic Resection, Percutaneous Coronary Intervention) in California hospitals. The 2014 and 2015 IMIs were generated using AHRQ Version 5.0, the 2012 and 2013 IMIs were generated using AHRQ Version 4.5 and the 2010 and 2011 IMIs were generated using AHRQ Version 4.4. The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time. However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings. Please refer to statewide table for California overall rates. https://chhs.data.ca.gov/Healthcare/California-Statewide-Inpatient-Mortality-Rates-201/nmyg-79m3",
+      "format": "PDF",
+      "name": "2011-ahrq-imi-report",
+      "path": "2011-ahrq-imi-report.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/2eb245be-4e8f-4c06-955f-c2521f6fa2f5/download/ahrqimi2011.pdf",
+          "title": "2011 AHRQ IMI Report"
+        }
+      ],
+      "title": "2011 AHRQ IMI Report"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 6 medical conditions treated (Acute Stroke, Acute Myocardial Infarction, Heart Failure, Gastrointestinal Hemorrhage, Hip Fracture and Pneumonia) and 6 procedures performed (Abdominal Aortic Aneurysm Repair, Carotid Endarterectomy, Craniotomy, Esophageal Resection, Pancreatic Resection, Percutaneous Coronary Intervention) in California hospitals. The 2014 and 2015 IMIs were generated using AHRQ Version 5.0, the 2012 and 2013 IMIs were generated using AHRQ Version 4.5 and the 2010 and 2011 IMIs were generated using AHRQ Version 4.4. The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time. However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings. Please refer to statewide table for California overall rates. https://chhs.data.ca.gov/Healthcare/California-Statewide-Inpatient-Mortality-Rates-201/nmyg-79m3",
+      "format": "XLS",
+      "hash": "d8f04b2de99a9c94f5c2ca284c8b313b",
+      "name": "2011-ahrq-imi-report0",
+      "path": "2011-ahrq-imi-report0.xls",
+      "schema": {
+        "fields": [
+          {
+            "name": "COUNTY",
+            "type": "string"
+          },
+          {
+            "name": "HOSPITAL",
+            "type": "string"
+          },
+          {
+            "name": "COMMENT LETTERS",
+            "type": "string"
+          },
+          {
+            "name": "ESOPHAGEAL RESECTION\n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "ESOPHAGEAL RESECTION\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "ESOPHAGEAL RESECTION\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "ESOPHAGEAL RESECTION\n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION\n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION\n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "AAA REPAIR\n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "AAA REPAIR\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "AAA REPAIR\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "AAA REPAIR (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "CRANIOTOMY\n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "CRANIOTOMY\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "CRANIOTOMY\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "CRANIOTOMY (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE MYOCARDIAL INFARCTION\n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE MYOCARDIAL INFARCTION\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE MYOCARDIAL INFARCTION\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE MYOCARDIAL INFARCTION\n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "HEART FAILURE\n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "HEART FAILURE\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "HEART FAILURE\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "HEART FAILURE\n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE\n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "GI HEMORRHAGE (Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "GI HEMORRHAGE\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "GI HEMORRHAGE\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "GI HEMORRHAGE (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "HIP FRACTURE\n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "HIP FRACTURE\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "HIP FRACTURE\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "HIP FRACTURE (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "PNEUMONIA\n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "PNEUMONIA\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "PNEUMONIA\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "PNEUMONIA (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "PCI\n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "PCI\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "PCI\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "PCI\n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "CAROTID ENDARTERECTOMY\n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "CAROTID ENDARTERECTOMY\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "CAROTID ENDARTERECTOMY\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "CAROTID ENDARTERECTOMY\n(Outlier Ratings)",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/75ab8bd9-1103-4587-95e1-936dbc40a027/download/ahrq_imi_2011.xls",
+          "title": "2011 AHRQ IMI Report"
+        }
+      ],
+      "title": "2011 AHRQ IMI Report"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 6 medical conditions treated (Acute Stroke, Acute Myocardial Infarction, Heart Failure, Gastrointestinal Hemorrhage, Hip Fracture and Pneumonia) and 6 procedures performed (Abdominal Aortic Aneurysm Repair, Carotid Endarterectomy, Craniotomy, Esophageal Resection, Pancreatic Resection, Percutaneous Coronary Intervention) in California hospitals. The 2014 and 2015 IMIs were generated using AHRQ Version 5.0, the 2012 and 2013 IMIs were generated using AHRQ Version 4.5 and the 2010 and 2011 IMIs were generated using AHRQ Version 4.4. The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time. However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings. Please refer to statewide table for California overall rates. https://chhs.data.ca.gov/Healthcare/California-Statewide-Inpatient-Mortality-Rates-201/nmyg-79m3",
+      "format": "PDF",
+      "name": "2010-ahrq-imi-report",
+      "path": "2010-ahrq-imi-report.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/6bb558f8-03a6-453d-915a-429c2dd7d89b/download/ahrqimi2010.pdf",
+          "title": "2010 AHRQ IMI Report"
+        }
+      ],
+      "title": "2010 AHRQ IMI Report"
+    },
+    {
+      "description": "The dataset contains risk-adjusted mortality rates, quality ratings, and number of deaths and cases for 6 medical conditions treated (Acute Stroke, Acute Myocardial Infarction, Heart Failure, Gastrointestinal Hemorrhage, Hip Fracture and Pneumonia) and 6 procedures performed (Abdominal Aortic Aneurysm Repair, Carotid Endarterectomy, Craniotomy, Esophageal Resection, Pancreatic Resection, Percutaneous Coronary Intervention) in California hospitals. The 2014 and 2015 IMIs were generated using AHRQ Version 5.0, the 2012 and 2013 IMIs were generated using AHRQ Version 4.5 and the 2010 and 2011 IMIs were generated using AHRQ Version 4.4. The differences in the statistical method employed and inclusion and exclusion criteria using different versions can lead to different results. Users should not compare trends of mortality rates over time. However, many hospitals showed consistent performance over years; “better” performing hospitals may perform better and “worse” performing hospitals may perform worse consistently across years. This dataset does not include conditions treated or procedures performed in outpatient settings. Please refer to statewide table for California overall rates. https://chhs.data.ca.gov/Healthcare/California-Statewide-Inpatient-Mortality-Rates-201/nmyg-79m3",
+      "format": "XLS",
+      "hash": "f00a96ad36b8e27b31d5eb6a3e600848",
+      "name": "2010-ahrq-imi-report0",
+      "path": "2010-ahrq-imi-report0.xls",
+      "schema": {
+        "fields": [
+          {
+            "name": "COUNTY",
+            "type": "string"
+          },
+          {
+            "name": "HOSPITAL",
+            "type": "string"
+          },
+          {
+            "name": "COMMENT LETTERS",
+            "type": "string"
+          },
+          {
+            "name": "ESOPHAGEAL RESECTION\n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "ESOPHAGEAL RESECTION\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "ESOPHAGEAL RESECTION\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "ESOPHAGEAL RESECTION\n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION\n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "PANCREATIC RESECTION\n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "AAA REPAIR\n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "AAA REPAIR\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "AAA REPAIR\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "AAA REPAIR    (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "CRANIOTOMY\n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "CRANIOTOMY\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "CRANIOTOMY\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "CRANIOTOMY (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE MYOCARDIAL INFARCTION\n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE MYOCARDIAL INFARCTION\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE MYOCARDIAL INFARCTION\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE MYOCARDIAL INFARCTION\n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "HEART FAILURE\n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "HEART FAILURE\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "HEART FAILURE\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "HEART FAILURE\n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE\n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "ACUTE STROKE (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "GI HEMORRHAGE (Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "GI HEMORRHAGE\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "GI HEMORRHAGE\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "GI HEMORRHAGE (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "HIP FRACTURE\n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "HIP FRACTURE\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "HIP FRACTURE\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "HIP FRACTURE (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "PNEUMONIA\n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "PNEUMONIA\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "PNEUMONIA\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "PNEUMONIA (Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "PCI\n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "PCI\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "PCI\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "PCI\n(Outlier Ratings)",
+            "type": "string"
+          },
+          {
+            "name": "CAROTID ENDARTERECTOMY\n(Risk-Adjusted Mortality Rate)",
+            "type": "string"
+          },
+          {
+            "name": "CAROTID ENDARTERECTOMY\n(# of Deaths)",
+            "type": "string"
+          },
+          {
+            "name": "CAROTID ENDARTERECTOMY\n(# of Cases)",
+            "type": "string"
+          },
+          {
+            "name": "CAROTID ENDARTERECTOMY\n(Outlier Ratings)",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/3bd9fe0a-d31c-41f4-ad0c-f994998e19a7/download/ahrq_imi_2010.xls",
+          "title": "2010 AHRQ IMI Report"
+        }
+      ],
+      "title": "2010 AHRQ IMI Report"
+    },
+    {
+      "description": "The technical notes for 2010-2011 AHRQ Inpatient Mortality Indicators for California hospitals report.",
+      "format": "PDF",
+      "name": "2010-2011-ahrq-imi-technical-notes",
+      "path": "2010-2011-ahrq-imi-technical-notes.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/e14a696f-4df3-4659-8246-db2c6a6487f9/download/ahrq-imi-technical-notes-1011.pdf",
+          "title": "2010-2011 AHRQ IMI Technical Notes"
+        }
+      ],
+      "title": "2010-2011 AHRQ IMI Technical Notes"
+    },
+    {
+      "description": "AHRQ Inpatient Mortality Executive Summary 2013",
+      "format": "PDF",
+      "name": "ahrq-imi-executive-summary-2013",
+      "path": "ahrq-imi-executive-summary-2013.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/05fee607-cea9-4bf1-8b53-20ca584748a3/resource/9488cbe2-1ef3-4534-a158-90a1a55527ff/download/ahrqimiexecutivesummaryweb2013datawordpress.pdf",
+          "title": "AHRQ IMI Executive Summary 2013"
+        }
+      ],
+      "title": "AHRQ IMI Executive Summary 2013"
+    }
+  ],
+  "secondary_sources": "",
+  "sources": [
+    {
+      "name": "Department of Health Care Access and Information, Information Services Division/Healthcare Analytics Branch",
+      "web": "https://hcai.ca.gov/data-and-reports/healthcare-quality/ahrq-quality-indicators/#imi"
+    }
+  ],
+  "temporal_coverage": "2010-2023",
+  "title": "California Hospital Inpatient Mortality Rates and Quality Ratings"
+}
