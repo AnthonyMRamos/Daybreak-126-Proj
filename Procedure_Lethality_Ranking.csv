@@ -1,0 +1,21 @@
+ProcedureName,avg_mortality,best_year,worst_year,avg_annual_deaths
+Acute Stroke Subarachnoid,22.15,17.3,24.6,605.0
+Acute Stroke Hemorrhagic,20.49,18.2,23.0,2390.0
+Acute Stroke,8.82,7.5,10.0,5209.0
+Craniotomy,7.02,6.6,7.3,1010.0
+AAA Repair Open Unruptured,6.7,5.8,7.4,15.0
+AMI,5.96,5.1,6.8,2891.0
+Acute Stroke Ischemic,4.88,4.1,5.3,2204.0
+Esophageal Resection,4.54,3.8,5.9,15.0
+Pneumonia,4.49,2.8,8.2,3448.0
+PCI,3.39,2.0,4.4,1223.0
+Heart Failure,2.81,2.0,3.0,2773.0
+Pancreatic Other,2.74,1.5,3.9,24.0
+Pancreatic Resection,2.71,2.0,4.5,47.0
+GI Hemorrhage,2.41,1.6,2.8,1274.0
+Pancreatic Cancer,2.33,2.0,3.3,23.0
+Hip Fracture,1.93,1.5,2.5,482.0
+AAA Repair Unruptured,1.4,1.1,1.9,32.0
+AAA Repair,1.1,0.8,1.4,26.0
+AAA Repair Endo Unruptured,0.78,0.6,1.0,14.0
+Carotid Endarterectomy,0.59,0.3,1.1,27.0
